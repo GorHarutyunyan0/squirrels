@@ -1,0 +1,189 @@
+.component {
+  background-color: rgb(36, 1, 64);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 228px;
+}
+
+.round {
+  margin: -185px -151px;
+  width: 313px;
+  height: 313px;
+  border-radius: 50%;
+  background: linear-gradient(184.05deg, rgba(254, 111, 147, 0.04) 5.34%, rgba(254, 111, 147, 0.8) 94.23%),
+      linear-gradient(151.46deg, rgba(255, 255, 255, 0.15) 13.47%, rgba(255, 255, 255, 0) 89.31%);
+  box-shadow: inset -10px 20px 56px rgb(253 95 143 / 70%),
+      inset 19.2116px 19.2116px 80.6887px rgb(255 255 255 / 50%);
+  transform: rotate(149.01deg);
+}
+
+.round1 {
+  background: linear-gradient(183.92deg, rgba(254, 111, 147, 0.03) 4.35%, rgba(254, 111, 147, 0.6) 91.26%);
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+  box-shadow: inset 19.2116px 19.2116px 80.6887px rgba(255, 255, 255, 0.5);
+  transform: rotate(149.01deg);
+  filter: drop-shadow(0px 192.116px 153.693px rgba(215, 81, 127, 0.07)) drop-shadow(0px 80.2614px 64.2092px rgba(215, 81, 127, 0.0503198)) drop-shadow(0px 42.9116px 34.3293px rgba(215, 81, 127, 0.0417275)) drop-shadow(0px 24.0559px 19.2447px rgba(215, 81, 127, 0.035)) drop-shadow(0px 12.7759px 10.2207px rgba(215, 81, 127, 0.0282725)) drop-shadow(0px 5.31634px 4.25307px rgba(215, 81, 127, 0.0196802))
+}
+
+.round2 {
+  width: 411.72px;
+  border-radius: 50%;
+  height: 411.72px;
+  background: linear-gradient(183.92deg, rgba(255, 0, 64, 0.03) 4.35%, rgba(255, 0, 202, 0.6) 91.26%);
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+  box-shadow: inset 12.075px 12.075px 50.715px rgba(255, 255, 255, 0.5);
+  transform: rotate(-30.99deg);
+
+}
+
+.round2-2 {
+  width: 244px;
+  height: 244px;
+  background: #B8008E;
+  filter: blur(200px);
+}
+
+.round2-1 {
+  width: 411.72px;
+  height: 411.72px;
+  border-radius: 50%;
+  background: linear-gradient(183.92deg, rgba(94, 0, 73, 0) 4.35%, rgba(94, 1, 72, 0.8) 91.26%),
+      linear-gradient(151.46deg, rgba(255, 255, 255, 0.15) 13.47%, rgba(255, 255, 255, 0) 89.31%);
+  box-shadow: inset -10px 20px 67px rgba(253, 95, 143, 0.25),
+      inset 12.075px 12.075px 50.715px rgba(255, 255, 255, 0.5);
+  transform: rotate(-30.99deg);
+}
+
+.back-of-team {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(135deg, #6B0152 0%, #2F183D 100%);
+  position: relative;
+}
+
+.back-of-team .back2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background: rgba(235, 232, 228, 0.5);
+  transform: matrix(1, -0.02, 0, 1, 0, 0);
+  
+
+}
+
+.title1 {
+  font-family: 'Noir Pro heavy';
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 67px;
+  text-align: center;
+  line-height: 150px;
+  color: white;
+}
+
+.cards {
+  justify-content: space-evenly;
+  display: flex;
+  margin: 97px auto;
+  padding: 0 3%;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  width: 411px;
+  height: 500px;
+}
+
+.twitter-icon {
+  position: absolute;
+  left: 11.68%;
+  right: 82.03%;
+  top: 6.2%;
+  bottom: 89.6%;
+}
+
+.names {
+  width: 399px;
+  height: 100px;
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(18px);
+  border-radius: 0px 0px 6px 6px;
+  position: absolute;
+  left: 1.46%;
+  right: 1.46%;
+  top: 78.8%;
+  bottom: 1.2%;
+}
+
+.names h2 {
+  position: absolute;
+  left: 11.68%;
+  right: 37.96%;
+  top: 12.6%;
+  font-family: 'Noir Pro bold';
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.names h3 {
+  position: absolute;
+  left: 11.9%;
+  top: 51.4%;
+  font-family: 'Noir Pro regular';
+  font-style: normal;
+  font-size: 18px;
+}
+
+@media (max-width:1235px) {
+  .cards {
+      justify-content: space-evenly;
+      display: flex;
+      margin: 97px auto;
+      padding: 0 3%;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .card {
+      position: relative;
+      width: 311px;
+      height: 400px;
+      margin: 34px 0;
+  }
+
+  .card img:nth-child(2) {
+      width: 311px;
+      height: 400px;
+  }
+
+  .names h2 {
+      position: absolute;
+      left: 11.68%;
+      right: 37.96%;
+      top: 12.6%;
+      font-family: 'Noir Pro bold';
+      font-size: 22px;
+      text-transform: uppercase;
+  }
+
+  .names {
+      width: 302px;
+      height: 70px;
+      color: white;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(18px);
+      border-radius: 0px 0px 6px 6px;
+      position: absolute;
+      left: 1.46%;
+      right: 1.46%;
+      top: 78.8%;
+      bottom: 1.2%;
+  }
+}

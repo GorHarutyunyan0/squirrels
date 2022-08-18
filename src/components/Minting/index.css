@@ -1,0 +1,105 @@
+.minting {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(135deg, #6B0152 0%, #2F183D 100%);
+  transform: matrix(1, 0.02, 0, 1, 0, 0);
+  /* margin: 67px 0; */
+}
+
+.grey-back {
+  transform: matrix(1, -0.015, 0, 1, 0, 0);
+  width: 100%;
+  height: 150px;
+  background: rgba(235, 232, 228, 0.5);
+  backdrop-filter: blur(18px);
+  display: flex;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12.7vw;
+}
+
+.minting h1 {
+  font-family: 'Noir Pro heavy';
+  font-size: 3.9vw;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.price-limits {
+  border-left: 6px solid #D8375B;
+  padding: 0 19px 0 2.2vw;
+  color: white;
+  font-family: 'Noir Pro Light';
+  font-weight: 600;
+  font-size: 1.35vw;
+}
+
+.price-limits p:first-child {
+  margin-bottom: 10px;
+}
+
+#counter {
+  width: 14vw;
+  height: 4.4vw;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  margin: 0 -45px 0 0;
+}
+
+#counter button {
+  border: none;
+  height: unset;
+  background: unset;
+  color: #C7C8D0;
+  font-size: 4vw;
+  font-family: 'Noir Pro regular';
+}
+
+.minting button {
+  margin: 37px 10px 0 63px;
+  font-family: 'Noir Pro regular';
+  outline: none;
+  font-size: 18px;
+  width: 189px;
+  height: 60px;
+  background: #D8375B;
+  border-radius: 30px;
+  color: #FFFFFF;
+  border: none;
+  margin: 0;
+}
+
+#counter span {
+  font-family: 'Noir Pro bold';
+  font-size: 2.3vw;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#counter .plus-minus {
+  color: #C7C8D0;
+  font-size: 4vw;
+  font-family: 'Noir Pro regular';
+  cursor: pointer;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+@media (max-width:666px) {
+  .minting button {
+      font-size: 2.5vw;
+      height: 7vw;
+      margin-left: 12px;
+  }
+}

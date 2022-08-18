@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Noir Pro heavy';
+  src: url(../public/assets/fonts/Noir-pro/NoirPro-Heavy.otf);
+}
+
+@font-face {
+  font-family: 'Noir Pro bold';
+  src: url(../public/assets/fonts/Noir-pro/NoirPro-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Noir Pro Light';
+  src: url(../public/assets/fonts/Noir-pro/NoirPro-Light.otf);
+}
+
+@font-face {
+  font-family: 'Noir Pro medium';
+  src: url(../public/assets/fonts/Noir-pro/NoirPro-Medium.otf);
+}
+
+@font-face {
+  font-family: 'Noir Pro regular';
+  src: url(../public/assets/fonts/Noir-pro/NoirPro-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Noir Pro semiBold';
+  src: url(../public/assets/fonts/Noir-pro/NoirPro-SemiBold.otf);
+} 

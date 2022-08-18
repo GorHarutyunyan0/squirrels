@@ -1,0 +1,9 @@
+.squirrels_images img{
+  width: 20%;
+}
+
+.squirrels_images {
+  display: flex;
+  justify-content: space-between;
+  background-color:#2F183D;    
+}

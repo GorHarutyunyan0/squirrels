@@ -1,0 +1,65 @@
+.first_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #2F183D ;    
+}
+
+.first_section .squir_image  {
+  position: relative;
+}
+
+.first_section .squir_image img{
+  width: 100%;
+}
+
+.first_section .title {
+  left: 15%;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  width: 60%;
+}
+.title .elipse{
+  width: 10vw;
+  height: 10vw;
+  background-color: rgba(184,0,142,0.20);
+  position: absolute;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 49px 50px rgba(184,0,142,0.20); 
+  box-shadow: 0px 0px 49px 50px rgba(184,0,142,0.20);
+  left: -10%;
+  top: -50%;
+}
+.elipse_1 {
+  width: 30vw;
+  height: 30vw;
+  background-color: rgba(184,0,142,0.20);
+  border: 10px solid transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 49px 50px rgba(184,0,142,0.50); 
+  box-shadow: 0px 0px 79px 70px rgba(184,0,142,0.20);
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+.title h1:first-child {
+  color: #ffff;
+  font-size: 5vw;
+  font-family: 'Noir Pro bold'
+}
+
+.title h1:nth-child(2) {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #8B42AE 0%, #E12F47 53.08%, #E67011 100%);
+  background-size: 100%; 
+  background-clip: text;   
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-family: 'Noir Pro bold';
+  font-size: 5vw
+}
